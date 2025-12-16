@@ -26,7 +26,7 @@ type AppAction =
   | { type: 'SET_COOKIE_CONSENT'; payload: boolean };
 
 const currencies: Currency[] = [
-  { code: 'RWF', symbol: 'RWF', rate: 1300 },
+  { code: 'RWF', symbol: 'RWF', rate: 1 }, // Prices from backend are already in RWF
   { code: 'USD', symbol: '$', rate: 1 }
 ];
 
