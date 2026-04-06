@@ -10,7 +10,7 @@ const defaultFooterContent: FooterContent = {
     description: "Your trusted partner for beautiful flowers and quality seedlings. We bring nature's beauty to your doorstep with care and expertise."
   },
   socialLinks: [
-    { platform: 'facebook', url: '#' },
+    { platform: 'facebook', url: 'https://www.facebook.com/61575436356758' },
     { platform: 'instagram', url: '#' },
     { platform: 'twitter', url: '#' },
     { platform: 'youtube', url: '#' }
@@ -41,7 +41,7 @@ const defaultFooterContent: FooterContent = {
     { label: 'Terms of Service', page: 'terms' },
     { label: 'Cookie Policy', page: 'cookies' }
   ],
-  copyright: '© 2025 GreenYard. All rights reserved.'
+  copyright: '© 2026 GreenYard. All rights reserved.'
 };
 
 const socialIconMap: Record<string, React.ComponentType<{ className?: string }>> = {
